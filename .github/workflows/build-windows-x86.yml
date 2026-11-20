@@ -60,6 +60,7 @@ jobs:
           host: 'windows'
           target: 'desktop'
           modules: 'qtwebengine qtpositioning qtwebchannel qtwebsockets qtserialport'
+          aqtsource: 'git+https://github.com/streetpea/aqtinstall.git@master'
 
       - name: Install pip dependencies
         run: |
